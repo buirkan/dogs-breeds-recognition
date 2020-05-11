@@ -12,5 +12,5 @@ A implementação será feita utilizando a linguagem de programação JavaScript
 
 ## Referências
 - Biblioteca & Frameworks
-  [Brain.js](https://brain.js.org/)
-  [Brain.js (Github)](https://github.com/BrainJS/brain.js)
+  - [Brain.js](https://brain.js.org/)
+  - [Brain.js (Github)](https://github.com/BrainJS/brain.js)
