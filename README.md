@@ -14,3 +14,9 @@ A implementação será feita utilizando a linguagem de programação JavaScript
 - Biblioteca & Frameworks
   - [Brain.js](https://brain.js.org/)
   - [Brain.js (Github)](https://github.com/BrainJS/brain.js)
+
+---
+### 14, May 2020
+- How to install **Brain.js** framework on solution.
+- Looking for examples.
+- Searching for help - Nice issue: [Image Recognition](https://github.com/BrainJS/brain.js/issues/352)

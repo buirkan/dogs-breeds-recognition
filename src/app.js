@@ -1,5 +1,5 @@
 const Brain = require('brain.js')
-const network = new Brain.NeuralNetwork();
+const network = new Brain.NeuralNetwork()
 
 /* Training the network example */
 network.train(
@@ -11,4 +11,4 @@ network.train(
     ]
 )
 
-const networkOutput = network.run();
+const networkOutput = network.run()

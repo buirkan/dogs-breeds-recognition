@@ -1,12 +1,12 @@
 {
   "name": "dog-breed-neural-network",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/FelipeAlvesSilva/neural-network-app",
   "author": "Felipe Silva <felipealvessilva64@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./src/app.js"
   },
   "dependencies": {
     "brain.js": "2.0.0-alpha.12"
