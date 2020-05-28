@@ -8,15 +8,9 @@ O foco do projeto é fazer com que a rede neural seja capaz de identificar e mos
 
 ## Descrição da Rede Neural
 
-A implementação será feita utilizando a linguagem de programação JavaScript, e também será utilizada a ferramenta principal para o desenvolvimento de uma rede neural com a linguagem, a biblioteca Brain.js, a qual é integrada à linguagem de programação que será utilizada para a implementação do projeto. O projeto consiste em através da imagem inserida pelo usuário, e também pela sua base de aprendizado, ser capaz de identificar via análise da imagem, parâmetros em geral trabalhados do lado da biblioteca [Brain.js](https://brain.js.org/) que irá identificar e classificar a imagem em uma raça de cachorro existente.
+A implementação será feita utilizando a linguagem de programação JavaScript, e também será utilizada a ferramenta principal para o desenvolvimento de uma rede neural com a linguagem, a biblioteca Brain.js, a qual é integrada à linguagem de programação que será utilizada para a implementação do projeto. O projeto consiste em através da imagem inserida pelo usuário, e também pela sua base de aprendizado, ser capaz de identificar via análise da imagem, parâmetros em geral trabalhados do lado da biblioteca **[ml5](https://github.com/ml5js/ml5-library)** que irá identificar e classificar a imagem em uma raça de cachorro existente.
 
 ## Referências
-- Biblioteca & Frameworks
-  - [Brain.js](https://brain.js.org/)
-  - [Brain.js (Github)](https://github.com/BrainJS/brain.js)
-
----
-### 14, May 2020
-- How to install **Brain.js** framework on solution.
-- Looking for examples.
-- Searching for help - Nice issue: [Image Recognition](https://github.com/BrainJS/brain.js/issues/352)
+- **Libs**
+  - **[ml5](https://github.com/ml5js/ml5-library)**
+  - **[ml5 website](https://ml5js.org/)**

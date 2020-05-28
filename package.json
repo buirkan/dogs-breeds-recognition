@@ -2,14 +2,37 @@
   "name": "dog-breed-neural-network",
   "version": "1.0.0",
   "main": "app.js",
-  "repository": "https://github.com/FelipeAlvesSilva/neural-network-app",
+  "repository": "https://github.com/FelipeAlvesSilva/dogs-breeds-recognition",
   "author": "Felipe Silva <felipealvessilva64@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/app.js"
+    "start": "react-scripts start"
   },
+  "private": true,
   "dependencies": {
-    "brain.js": "2.0.0-alpha.12"
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "ml5": "^0.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-icons": "^3.10.0",
+    "react-images-upload": "^1.2.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1"
   },
-  "private": true
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
