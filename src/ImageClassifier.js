@@ -8,6 +8,7 @@ const ImageClassifier = () => {
   const [startRec, setStartRec] = useState(false)
   const [predicts, setPredicts] = useState([])
   const [file, setFile] = useState("")
+
   const toast = useToast()
   const model = "MobileNet"
 
@@ -22,7 +23,6 @@ const ImageClassifier = () => {
         duration: 5000,
         isClosable: true
       }
-
       toast(toastConfig)
     }
   }, [modelMessage, toast])
@@ -69,7 +69,7 @@ const ImageClassifier = () => {
   }
 
   const classifyFile = () => {
-    const classf = ml5.imageClassifier(model, () => () => {
+    const classf = ml5.imageClassifier(model, () => {
       let alert = {
         title: "Carregamento do modelo",
         body: `Modelo ${model} foi carregado com sucesso :D`
