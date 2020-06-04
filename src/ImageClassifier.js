@@ -45,7 +45,7 @@ const ImageClassifier = () => {
           m={5}
           src={file}
           id="dogImage"
-          width="100%"
+          width="-webkit-fill-available"
           height="420"
           objectFit="contain"
           border="none" />
@@ -88,7 +88,7 @@ const ImageClassifier = () => {
   }
 
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
       <Button m={10} size="lg" textAlign="center" variantColor="teal" variant="solid" rightIcon={FaDog} onClick={() => setStartRec(true)}>
         <span>Reconhecer Raça</span>
       </Button>

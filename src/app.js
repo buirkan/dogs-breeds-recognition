@@ -1,5 +1,5 @@
 import React from "react"
-import { Heading, Text} from "@chakra-ui/core"
+import { Heading, Text } from "@chakra-ui/core"
 import ImageClassifier from "./ImageClassifier"
 
 const App = () => {
@@ -11,8 +11,8 @@ const App = () => {
       </Heading>
       <Text textAlign="center" fontWeight="light" fontSize="xl" justifyContent="center" mt={2} ml="12em" mr="12em">
         Exemplo de uma rede neural, utilizando a tecnologia da biblioteca <strong>ml5.js</strong> e <strong>MobileNet</strong> para o reconhecimento e classificação de imagens para raças de cães.
-        <ImageClassifier />
       </Text>
+      <ImageClassifier />
     </div>
   )
 }
