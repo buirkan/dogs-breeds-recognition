@@ -1,7 +1,7 @@
 {
   "name": "dog-breed-neural-network",
   "version": "1.0.0",
-  "main": "./src/App.js",
+  "main": "index.js",
   "repository": "https://github.com/FelipeAlvesSilva/dogs-breeds-recognition",
   "author": "Felipe Silva <felipealvessilva64@gmail.com>",
   "license": "MIT",
