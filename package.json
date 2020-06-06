@@ -6,7 +6,8 @@
   "author": "Felipe Silva <felipealvessilva64@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "private": true,
   "dependencies": {
